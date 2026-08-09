@@ -11,6 +11,9 @@ A lightweight, zero-dependency client-side tool for generating deterministic hex
 - **Blind Input:** Your secret master phrase is hidden during typing.
 - **Blind Output:** The hash is never exposed on screen—you only need to copy it.
 
+By typing `Space` or `Enter` or pressing `Copy` - the 3 first characters of hash will be exposed. If you want, you can continue to type. 
+This can be used as an intermediate checkpoint.
+
 
 ### Why only 3 characters are shown:
 - **Quasi-Checksum Control:** Displaying only the first 3 hex characters lets you instantly verify that you typed your master phrase correctly without revealing your secret master phrase or whole hash.

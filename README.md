@@ -11,9 +11,7 @@ A lightweight, zero-dependency client-side tool for generating deterministic hex
 - **Blind Input:** Your secret master phrase is hidden during typing.
 - **Blind Output:** The hash is never exposed on screen—you only need to copy it.
 
-By typing `Space` or `Enter` or pressing `Copy` - the 3 first characters of hash will be exposed. If you want, you can continue to type. 
-This can be used as an intermediate checkpoint.
-
+By typing `Space` or `Enter` or pressing `Copy` - the 3 first characters of hash will be exposed.
 
 ### Why only 3 characters are shown:
 - **Quasi-Checksum Control:** Displaying only the first 3 hex characters lets you instantly verify that you typed your master phrase correctly without revealing your secret master phrase or whole hash.
@@ -35,6 +33,7 @@ This can be used as an intermediate checkpoint.
 
 1. Open `index.html` in any web browser.
 2. Type your secret phrase into the input field.
-3. Check the first 3 characters to verify your input.
+3. Check the first 3 characters to verify your input by typing `Space` or `Enter` or pressing `Copy`. If you want, you can continue to type. 
+This can be used as an intermediate checkpoint.
 4. Click **COPY** next to `SHA-256` or `SHA-1`.
 5. Paste your password where needed, then click **Reset All** to clear everything and wipe the clipboard.

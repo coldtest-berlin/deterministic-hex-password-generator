@@ -6,7 +6,7 @@ A lightweight, zero-dependency client-side tool for generating deterministic hex
 
 ## 🎯 Concept & User Experience
 
-Unlike traditional password generators, you don't need to view or read the full hash. You only need to copy it.
+Unlike traditional SHA-256 generators, you don't need to view or read the full hash. You only need to copy it.
 
 ### Why only 3 characters are shown:
 - **Quasi-Checksum Control:** Displaying only the first 3 hex characters lets you instantly verify that you typed your master phrase correctly without revealing the whole password.
@@ -20,7 +20,7 @@ Unlike traditional password generators, you don't need to view or read the full 
 - **Red Warning Border (Copy Alert):** Upon clicking **COPY**, a pulsing red border lights up around the screen. This serves as an immediate visual reminder to hit **Reset All** once you've pasted your password.
 - **One-Click Reset All:** Clears input fields, wipes generated hashes, clears the clipboard, and restores default styles.
 - **Anti-Autofill Max:** Uses randomized input element names and auto-fill ignore flags (`data-bitwarden-ignore`, `data-lpignore`) to stop browser extension managers from capturing your secret phrase.
-- **Offline Proof (Strict CSP):** Embedded Content Security Policy (`connect-src 'none'`) blocks all outgoing network traffic. The tool runs 100% locally and securely in your browser.
+- **No access to Internet (Strict CSP):** Embedded Content Security Policy (`connect-src 'none'`) blocks all outgoing network traffic. The tool runs 100% locally and securely in your browser.
 
 ---
 

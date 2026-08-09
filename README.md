@@ -6,10 +6,10 @@ A lightweight, zero-dependency client-side tool for generating deterministic hex
 
 ## 🎯 Concept 
 
-### 💡 Key Differences from Standard SHA-256 Tools
+### 💡 Key Differences from Standard SHA-256 Calculators
 
-- **Blind Input:** Unlike standard calculators, your secret master phrase is hidden during typing.
-- **Masked Output:** The full hash is never exposed on screen—you only need to copy it.
+- **Blind Input:** Your secret master phrase is hidden during typing.
+- **Blind Output:** The hash is never exposed on screen—you only need to copy it.
 
 
 ### Why only 3 characters are shown:

@@ -13,9 +13,9 @@ A lightweight, zero-dependency client-side tool for generating deterministic hex
 
 
 ### Why only 3 characters are shown:
-- **Quasi-Checksum Control:** Displaying only the first 3 hex characters lets you instantly verify that you typed your master phrase correctly without revealing the whole password.
+- **Quasi-Checksum Control:** Displaying only the first 3 hex characters lets you instantly verify that you typed your master phrase correctly without revealing the your secret master phrase or whole hash.
 - **Eye Comfort:** Eliminates visual clutter from long, unreadable strings of random characters.
-- **Shoulder-Surfing Protection:** Keeps your full generated passwords safe from onlookers, cameras, or screen sharing.
+- **Shoulder-Surfing Protection:** Keeps your full generated passwords and your secret master phrase safe from onlookers, cameras, or screen sharing.
 
 ---
 

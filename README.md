@@ -8,8 +8,8 @@ A lightweight, zero-dependency client-side tool for generating deterministic hex
 
 ### 💡 Key Differences from Standard SHA-256 Tools
 
-- **Blind Input:** Unlike standard calculators, your secret master phrase is hidden during typing[span_3](start_span)[span_3](end_span).
-- **Masked Output:** The full hash is never exposed on screen—you only need to copy it, so only a 3-character is shown to confirm your input[span_4](start_span)[span_4](end_span).
+- **Blind Input:** Unlike standard calculators, your secret master phrase is hidden during typing.
+- **Masked Output:** The full hash is never exposed on screen—you only need to copy it.
 
 
 ### Why only 3 characters are shown:

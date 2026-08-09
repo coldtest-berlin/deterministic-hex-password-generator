@@ -4,9 +4,13 @@ A lightweight, zero-dependency client-side tool for generating deterministic hex
 
 ---
 
-## 🎯 Concept & User Experience
+## 🎯 Concept 
 
-Unlike traditional SHA-256 generators, you don't need to view or read the full hash. You only need to copy it.
+### 💡 Key Differences from Standard SHA-256 Tools
+
+- **Blind Input:** Unlike standard calculators, your secret master phrase is hidden during typing[span_3](start_span)[span_3](end_span).
+- **Masked Output:** The full hash is never exposed on screen—you only need to copy it, so only a 3-character is shown to confirm your input[span_4](start_span)[span_4](end_span).
+
 
 ### Why only 3 characters are shown:
 - **Quasi-Checksum Control:** Displaying only the first 3 hex characters lets you instantly verify that you typed your master phrase correctly without revealing the whole password.
